@@ -1,7 +1,7 @@
 Hello! This is a short guide on how to develop this app on the HoloLens and how to use it.
 
 
-## 1.) Installations and requirements:
+## Installations and requirements:
 
 Windows 10 is required to install and use all software successfully.
 Download Unity Hub (used version: 2.4.5) from the official Unity website (https://unity3d.com/de/get-unity/download).
@@ -26,7 +26,7 @@ In the UWP workload, make sure, the following components are included:
 For debugging the app later on the HoloLens, make sure to enable developer mode on the PC (Settings > Update & Security > for developers) and the HoloLens.
 
 
-## 2.) Opening the project:
+## Opening the project:
 
 Important! This part can be completely skipped, if no changes have to be made to the program and the App folder already exists. 
 In that case go to Opening the Visual Studio solution. If not, continue here.
@@ -53,7 +53,7 @@ If the configurations were adjusted accordingly, press Build. Now you’re asked
 and create a new one, which you have to choose. Now a Visual Studio solution is build.
 
 
-## 3.) Opening the Visual Studio solution and deploy the App on the HoloLens:
+## Opening the Visual Studio solution and deploy the App on the HoloLens:
 
 Make sure, that the HoloLens is connected via USB to the used PC. Open the App folder and start the .sln-file with Visual Studio 2019. 
 Now the solution opens and the only thing to do is change the Output to Release, x86 and the HoloLens (those options are underneath Project, Debug and so on and are next to each other). 
