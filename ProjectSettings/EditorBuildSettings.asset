@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Samples/Mixed Reality Toolkit Examples/2.7.2/Demos - HandTracking/Scenes/HandInteractionExamples.unity
+    guid: 3dd4a396b5225f8469b9a1eb608bfa57
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  m_configObjects:
+    Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: cb51c5c504d390c41b7b6c93617bf419, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: fc590715e5fe2f84e82ef399c242a7c7, type: 2}
