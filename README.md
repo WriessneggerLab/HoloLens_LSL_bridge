@@ -7,9 +7,8 @@ Windows 10 is required to install and use all software successfully.
 Download Unity Hub (used version: 2.4.5) from the official Unity website (https://unity3d.com/de/get-unity/download).
 
 Then, open Unity Hub and install the Unity Editor (used version: 2020.3.24).
-
-•	Go to Installs
-•	Add
+•	Go to Installs__
+•	Add__
 •	Choose a Unity Editor Version and install it (if the wanted one is not listed, click on the download archive link and choose from there)
 
 Download Microsoft Visual Studio 2019 from the official Microsoft website (https://visualstudio.microsoft.com/de/vs/older-downloads). 
