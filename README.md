@@ -13,7 +13,7 @@ Then, open Unity Hub and install the Unity Editor (used version: 2020.3.24).
 
 Download Microsoft Visual Studio 2019 from the official Microsoft website (https://visualstudio.microsoft.com/de/vs/older-downloads). 
 Before installing, make sure to meet all the requirements from the installation checklist (https://docs.microsoft.com/en-us/windows/mixed-reality/develop/install-the-tools). 
-Install the workloads:
+Install the workloads:  
 •	Desktop development with C++  
 •	Universal Windows Platform (UWP) development  
 •	Game development with Unity
