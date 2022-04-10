@@ -1,7 +1,7 @@
 Hello! This is a short guide on how to develop this app on the HoloLens and how to use it.
 
 
-## Installations and requirements:
+## Installations and requirements
 
 Windows 10 is required to install and use all software successfully.
 Download Unity Hub (used version: 2.4.5) from the official Unity website (https://unity3d.com/de/get-unity/download).
@@ -26,7 +26,7 @@ In the UWP workload, make sure, the following components are included:
 For debugging the app later on the HoloLens, make sure to enable developer mode on the PC (Settings > Update & Security > for developers) and the HoloLens.
 
 
-## Opening the project:
+## Opening the project
 
 Important! This part can be completely skipped, if no changes have to be made to the program and the App folder already exists. 
 In that case go to Opening the Visual Studio solution. If not, continue here.
@@ -53,10 +53,14 @@ If the configurations were adjusted accordingly, press Build. Now you’re asked
 and create a new one, which you have to choose. Now a Visual Studio solution is build.
 
 
-## Opening the Visual Studio solution and deploy the App on the HoloLens:
+## Opening the Visual Studio solution and deploy the App on the HoloLens
 
 Make sure, that the HoloLens is connected via USB to the used PC. Open the App folder and start the .sln-file with Visual Studio 2019. 
 Now the solution opens and the only thing to do is change the Output to Release, x86 and the HoloLens (those options are underneath Project, Debug and so on and are next to each other). 
 Now go to Debug > Start without Debugging and let the App upload to the HoloLens. This usually takes a few minutes and should terminate without any errors. 
 After it finished, you can disconnect the HoloLens and start the App there. Sometimes the App doesn’t open the first time, in which case it needs to be closed on the HoloLens and reopened. 
 
+
+## Using the App on the Hololens
+
+Once succesfully started the app, you can see an IP connect window. Press on the keyboard symbol and type in the IP of the computer, on which the servers are running. Naturally, the computer on which the bridge server and the LSL server run and the Hololens need to be in the same network. If the IP is typed in correctly, the Ip connect window closes and the game can be started. The game has three phases which are marked on the LSL network with each phase having less time to answer.
